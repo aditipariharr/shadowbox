@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aditi Singh Parihar - Interactive Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+</head>
+<body>
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <header>
+        <nav>
+            <div class="logo">ASP</div>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="hero-content">
+                <h1 class="glitch" data-text="Aditi Singh Parihar">Aditi Singh Parihar</h1>
+                <p class="subtitle">Computer Science & Engineering Student | IoT & Intelligent Systems Specialist</p>
+                <div class="social-links">
+                    <a href="mailto:aditi.singhpariharr@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+                    <a href="https://linkedin.com/in/aditipariharrr" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/aditipariharr" target="_blank"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <div class="mouse"></div>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2 class="section-title">About Me</h2>
+            <p class="about-text">I'm a Computer Science and Engineering student specializing in IoT and Intelligent Systems at Manipal University Jaipur. With a passion for technology and innovation, I'm constantly expanding my skills in web development, IoT, and machine learning.</p>
+        </section>
+
+        <section id="skills">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skill-categories">
+                <div class="skill-category">
+                    <h3>Programming Languages</h3>
+                    <ul class="skill-list">
+                        <li><span class="skill-name">Python</span><div class="skill-bar"><div class="skill-progress" style="width: 90%;"></div></div></li>
+                        <li><span class="skill-name">SQL</span><div class="skill-bar"><div class="skill-progress" style="width: 85%;"></div></div></li>
+                        <li><span class="skill-name">C/C++</span><div class="skill-bar"><div class="skill-progress" style="width: 80%;"></div></div></li>
+                        <li><span class="skill-name">Java</span><div class="skill-bar"><div class="skill-progress" style="width: 75%;"></div></div></li>
+                        <li><span class="skill-name">HTML/CSS</span><div class="skill-bar"><div class="skill-progress" style="width: 95%;"></div></div></li>
+                        <li><span class="skill-name">JavaScript</span><div class="skill-bar"><div class="skill-progress" style="width: 85%;"></div></div></li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Libraries & Frameworks</h3>
+                    <ul class="skill-list">
+                        <li><span class="skill-name">Pandas</span><div class="skill-bar"><div class="skill-progress" style="width: 90%;"></div></div></li>
+                        <li><span class="skill-name">NumPy</span><div class="skill-bar"><div class="skill-progress" style="width: 85%;"></div></div></li>
+                        <li><span class="skill-name">Scikit-learn</span><div class="skill-bar"><div class="skill-progress" style="width: 80%;"></div></div></li>
+                        <li><span class="skill-name">TensorFlow</span><div class="skill-bar"><div class="skill-progress" style="width: 75%;"></div></div></li>
+                        <li><span class="skill-name">Matplotlib</span><div class="skill-bar"><div class="skill-progress" style="width: 85%;"></div></div></li>
+                        <li><span class="skill-name">React.js</span><div class="skill-bar"><div class="skill-progress" style="width: 70%;"></div></div></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience">
+            <h2 class="section-title">Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>ShadowFox</h3>
+                        <p class="timeline-date">May 2024 - Present</p>
+                        <p>Intern (Remote)</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Prodigy Infotech</h3>
+                        <p class="timeline-date">Mar 2024 - Apr 2024</p>
+                        <p>Web Developer Intern (Remote)</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>IEEE Sensor Council MUJ</h3>
+                        <p class="timeline-date">April 2023 - Present</p>
+                        <p>Vice Chairperson</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2 class="section-title">Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>IoT Based Obstacle Detection</h3>
+                        <p>Technologies: Arduino, C language, Ultrasonic Sensor</p>
+                    </div>
+                    <div class="project-overlay">
+                        <a href="#" class="btn">Learn More</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>Portfolio Website</h3>
+                        <p>Technologies: HTML, CSS, JavaScript, React.js</p>
+                    </div>
+                    <div class="project-overlay">
+                        <a href="#" class="btn">Learn More</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>Cloud Computing Impact on Smart Technologies</h3>
+                        <p>Research paper exploring cloud computing's impact on innovative smart technologies</p>
+                    </div>
+                    <div class="project-overlay">
+                        <a href="#" class="btn">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="certifications">
+            <h2 class="section-title">Certifications</h2>
+            <div class="cert-grid" id="cert-grid"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Aditi Singh Parihar. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
