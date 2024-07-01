@@ -1,0 +1,24 @@
+/enhanced-netflix
+│
+├── /public              # Public files (index.html, favicon.ico, etc.)
+│   ├── index.html       # Main HTML file
+│   └── ...
+│
+├── /src                 # Source code
+│   ├── /assets          # Images, fonts, etc.
+│   ├── /components      # React components
+│   │   ├── Header.js    # Example component
+│   │   ├── MovieCard.js # Example component
+│   │   ├── MovieList.js # Example component
+│   │   └── ...
+│   ├── /pages           # React components for each page
+│   │   ├── Home.js      # Example page component
+│   │   ├── Movies.js    # Example page component
+│   │   ├── Series.js    # Example page component
+│   │   └── ...
+│   ├── App.js           # Main React component
+│   ├── index.js         # Entry point
+│   └── ...
+│
+├── package.json         # Frontend dependencies and scripts
+└── README.md            # Frontend README file
